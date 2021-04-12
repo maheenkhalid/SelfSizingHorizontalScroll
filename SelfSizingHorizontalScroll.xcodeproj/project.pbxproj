@@ -13,6 +13,7 @@
 		485BCBAA2623A92B00EF2FB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 485BCBA82623A92B00EF2FB1 /* Main.storyboard */; };
 		485BCBAC2623A92E00EF2FB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 485BCBAB2623A92E00EF2FB1 /* Assets.xcassets */; };
 		485BCBAF2623A92E00EF2FB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 485BCBAD2623A92E00EF2FB1 /* LaunchScreen.storyboard */; };
+		485BCBB82623AFD100EF2FB1 /* SelfSizingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485BCBB72623AFD000EF2FB1 /* SelfSizingCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		485BCBAB2623A92E00EF2FB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		485BCBAE2623A92E00EF2FB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		485BCBB02623A92E00EF2FB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		485BCBB72623AFD000EF2FB1 /* SelfSizingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfSizingCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				485BCBAB2623A92E00EF2FB1 /* Assets.xcassets */,
 				485BCBAD2623A92E00EF2FB1 /* LaunchScreen.storyboard */,
 				485BCBB02623A92E00EF2FB1 /* Info.plist */,
+				485BCBB72623AFD000EF2FB1 /* SelfSizingCollectionViewCell.swift */,
 			);
 			path = SelfSizingHorizontalScroll;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			files = (
 				485BCBA72623A92B00EF2FB1 /* ViewController.swift in Sources */,
 				485BCBA32623A92B00EF2FB1 /* AppDelegate.swift in Sources */,
+				485BCBB82623AFD100EF2FB1 /* SelfSizingCollectionViewCell.swift in Sources */,
 				485BCBA52623A92B00EF2FB1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
